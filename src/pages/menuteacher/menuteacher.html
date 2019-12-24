@@ -1,0 +1,58 @@
+<!--
+  Generated template for the MenuteacherPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="dark">
+  <ion-title>Menuteacher</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding id="menuteacher">
+  <ion-list>
+    <ion-item id="menuteacher" (click)="QrScan()">
+      <ion-thumbnail item-start>
+        <img src="http://localhost/image/qr-code.png">
+      </ion-thumbnail>
+      <h2>Scan QR Code</h2>
+      <p>สแกนการมาเรียน</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+    <ion-item id="menuteacher" (click)="QrScan()">
+      <ion-thumbnail item-start>
+        <img src="http://localhost/image/qr-code.png">
+      </ion-thumbnail>
+      <h2>Check Class</h2>
+      <p>เช็คชื่อเข้าห้องเรียน</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+
+
+    <ion-item id="menuteacher" (click)="SaveSick()">
+        <ion-thumbnail item-start>
+          <img src="http://localhost/image/prescription.png">
+        </ion-thumbnail>
+        <h2>Save Sick</h2>
+        <p>บันทึกรายการเด็กป่วย</p>
+        <button ion-button clear item-end (click)="SaveSick()">View</button>
+      </ion-item>
+
+
+
+
+      <ion-item id="menuteacher" (click)="Studentview()">
+          <ion-thumbnail item-start>
+            <img src="http://localhost/image/black-graduation-cap-tool-of-university-student-for-head.png">
+          </ion-thumbnail>
+          <h2>Student</h2>
+          <p>student grade </p>
+          <button ion-button clear item-end>View</button>
+        </ion-item>
+
+
+  </ion-list>
+</ion-content>

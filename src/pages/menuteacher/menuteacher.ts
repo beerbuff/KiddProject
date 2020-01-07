@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { QrScanPage } from '../qr-scan/qr-scan';
 import { SaveSickPage } from '../save-sick/save-sick';
 import { StudentviewPage } from '../studentview/studentview';
+import { CheckstudyPage } from '../checkstudy/checkstudy';
 
 /**
  * Generated class for the MenuteacherPage page.
@@ -26,6 +27,9 @@ export class MenuteacherPage {
   }
   QrScan(){
     this.navCtrl.push(QrScanPage)
+  }
+  Checkstudy(){
+    this.navCtrl.push(CheckstudyPage)
   }
   SaveSick(){
     this.navCtrl.push(SaveSickPage)
